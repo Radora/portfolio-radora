@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate DB Schema </title>
+</head>
+<body style="font-family:-apple-system, BlinkMacSystemFont, 
+'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; display:flexbox; background-color: bisque;">
+    <h1 style="text-align: center;">Real Estate DB model</h1>
+    <p style="text-align: center;"><i>A simple working database model of a property-managment system which I am currently working on</i></p>
+
+    <div>
+        <img src="../img/db-example.png" style="float: right; width: 1100px; height: 750px; margin-right: 80px;" alt="">
+        <h2 style="margin: 60px;">The business rules are:</h2>
+        <ul style="margin: 60px;">
+            <li style="font-size:medium; font-weight: 900;">There can be multiple Properties
+                <ul>
+                    <li style="font-weight: 400;">Each Property can have multiple Buildings</li>
+                </ul>
+            </li>
+            <br>
+            <li style="font-size:medium; font-weight: 900;">Each Building can have a Manager
+                <ul>
+                    <li style="font-weight: 400;">Each Building can have multiple rental Units and commercial space</li>
+                    <li style="font-weight: 400;">Each Building will have Utilities</li>
+                    <li style="font-weight: 400;">Each Building may have Features</li>
+                </ul>
+            </li>
+            <br>
+            <li style="font-size:medium; font-weight: 900;">Each Unit will have to be Inspected when a new Guest moves in
+                <ul>
+                    <li style="font-weight: 400;">Each Unit can have multiple Guests</li>
+                    <li style="font-weight: 400;">Units pricing may change</li>
+                    <li style="font-weight: 400;">Each Unit has Features</li>
+                </ul>
+            </li>
+            <br>
+            <li style="font-weight: 900;">Each Guest may have a car</li>
+            <li style="font-weight: 900;">Some Guests may be companies</li>
+        </ul>
+    </div>
+
+</body>
+</html>
